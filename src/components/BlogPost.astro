@@ -1,0 +1,10 @@
+---
+// Props: url, title
+const { url, title } = Astro.props;
+---
+
+<article class="blog-post">
+  <header>
+    <h2><a href={url}>{title}</a></h2>
+  </header>
+</article>
